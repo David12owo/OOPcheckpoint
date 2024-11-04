@@ -1,0 +1,165 @@
+/*......global presets......*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+}
+/*ends here*/
+
+/*----header styling----*/
+header {
+  font-size: 1.5rem;
+  font-weight: 100;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+/*----header styling ends here----*/
+
+/*------main styling----*/
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: fit-content;
+  padding-block: 10px;
+  margin-inline: auto;
+}
+/*----cart styling----*/
+.cart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding-inline: 10px;
+  max-width: 100%;
+}
+/*----cart styling ends here----*/
+
+/*---- cart list styling starts here----*/
+.cartlists {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8rem;
+  background-color: antiquewhite;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}
+/*--- cart list styling ends here----*/
+
+/*---- product styling starts here----*/
+.product {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.btn-delete {
+  background-color: red;
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+/*---- product styling ends here----*/
+
+/*----rate styling starts here----*/
+.rate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+}
+
+.price {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.selection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.plus-btn {
+  background-color: green;
+  color: white;
+  font-size: 1rem;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.quantity {
+  font-size: 1.5rem;
+  font-weight: 100;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.minus-btn {
+  background-color: red;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.heart {
+  font-size: 1.5rem;
+  font-weight: 100;
+  background-color: white;
+  cursor: pointer;
+}
+/*----rate styling ends here----*/
+
+/* total styling starts here----*/
+.total {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.cart-total {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.btn-checkout {
+  background-color: green;
+  color: white;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}

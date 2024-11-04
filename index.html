@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OOP-cart</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/d67942ee00.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <h1>Shopping Cart</h1>
+    </header>
+    <main>
+      <div class="cart" id="cart-items-container">
+        <div class="cartlists">
+          <div class="product">
+            <img
+              class="product-image"
+              src="https://th.bing.com/th/id/OIP.49zpK_09Hnm_dqC4iQRCSAHaIC?w=181&h=196&c=7&r=0&o=5&pid=1.7"
+              alt="Luxury chair"
+            />
+            <div>
+              <h3 class="name">Luxury Chair</h3>
+              <button class="btn-delete">Delete</button>
+            </div>
+          </div>
+          <div class="rate">
+            <p class="price">$1500</p>
+            <div class="selection">
+              <button><i class="plus-btn fa-solid fa-plus"></i></button>
+              <p class="quantity">1</p>
+              <button><i class="minus-btn fa-solid fa-minus"></i></button>
+            </div>
+            <p><i class="heart fa-regular fa-heart"></i></p>
+          </div>
+        </div>
+
+        <div class="cartlists">
+          <div class="product">
+            <img
+              class="product-image"
+              src="https://th.bing.com/th/id/OIP.tCue6PLiRdAbLCXivOFPigHaIw?w=162&h=189&c=7&r=0&o=5&pid=1.7"
+              alt="Wooden chair"
+            />
+            <div>
+              <h3 class="name">Wooden Chair</h3>
+              <button class="btn-delete">Delete</button>
+            </div>
+          </div>
+          <div class="rate">
+            <p class="price">$1500</p>
+            <div class="selection">
+              <button><i class="plus-btn fa-solid fa-plus"></i></button>
+              <p class="quantity">1</p>
+              <button><i class="minus-btn fa-solid fa-minus"></i></button>
+            </div>
+            <p><i class="heart fa-regular fa-heart"></i></p>
+          </div>
+        </div>
+
+        <div class="cartlists">
+          <div class="product">
+            <img
+              class="product-image"
+              src="https://th.bing.com/th?id=OIF.Zhgi8mdCH385%2bkeQ1X0Byg&w=156&h=180&c=7&r=0&o=5&pid=1.7"
+              alt="Gaming chair"
+            />
+            <div>
+              <h3 class="name">Gaming Chair</h3>
+              <button class="btn-delete">Delete</button>
+            </div>
+          </div>
+          <div class="rate">
+            <p class="price">$1500</p>
+            <div class="selection">
+              <button><i class="plus-btn fa-solid fa-plus"></i></button>
+              <p class="quantity">1</p>
+              <button><i class="minus-btn fa-solid fa-minus"></i></button>
+            </div>
+            <p><i class="heart fa-regular fa-heart"></i></p>
+          </div>
+        </div>
+
+        <div class="cartlists">
+          <div class="product">
+            <img
+              class="product-image"
+              src="https://th.bing.com/th/id/OIF.VbqwMhD4gtkXQ8xIl1PmdQ?w=189&h=189&c=7&r=0&o=5&pid=1.7"
+              alt="Wheel chair"
+            />
+            <div>
+              <h3 class="name">Wheel Chair</h3>
+              <button class="btn-delete">Delete</button>
+            </div>
+          </div>
+          <div class="rate">
+            <p class="price">$1500</p>
+            <div class="selection">
+              <button><i class="plus-btn fa-solid fa-plus"></i></button>
+              <p class="quantity">1</p>
+              <button><i class="minus-btn fa-solid fa-minus"></i></button>
+            </div>
+            <p><i class="heart fa-regular fa-heart"></i></p>
+          </div>
+        </div>
+      </div>
+
+      <!---total--->
+      <div class="total">
+        <p class="cart-total" id="cart-price-total">Total: $6000</p>
+        <button class="btn-checkout" id="check-out-btn">Checkout</button>
+      </div>
+    </main>
+    <script src="OOP-cart.js"></script>
+  </body>
+</html>
